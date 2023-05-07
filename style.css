@@ -1,0 +1,31 @@
+.photo{
+    width:350px;
+    height:200px;
+    margin:15px;
+    float:left;
+    overflow:hidden;
+    position:relative;
+}
+.photo-item{
+    width:100%;
+}
+.title,.description{
+    padding:5px;
+    position:absolute;
+    color:white;
+    background-color:rgba(0,0,0,0.6);
+    left:0;
+}
+.title{
+    font-weight:600;
+    top:0px;
+}
+.description{
+    width:100%;
+    text-align:center;
+    bottom:0px;
+    display:none;
+}
+.photo:hover .description{
+    display:block;
+}
